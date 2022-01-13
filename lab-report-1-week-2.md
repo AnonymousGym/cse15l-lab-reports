@@ -12,6 +12,7 @@ Follow the instructions to install, and you shall see this page:
 [11]: 1.png
 
 __2.Remotely Connecting__
+
 The second step is to connect to your account.
 _If you're using Windows, you have to install this:_
 [Link][2]
