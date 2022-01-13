@@ -48,6 +48,7 @@ This is some of my tests:
 [13]: 3.png
 
 __4.Moving Files with scp__
+
 Try to copy a file from your computer to a remote computer.
 The command is called _scp_, run it from your computer.
 Create a file on your computer called _WhereAmI.java_ and put some code:
@@ -72,7 +73,8 @@ Use _ls_ and see the file there in your home directory.
 Now you can run it on the ieng6 computer using _javac_ and _java_.
 __Need One More Pic__
 
-5.Setting an SSH Key
+__5.Setting an SSH Key__
+
 To avoid typing password every time we log in, we can use ssh keys.
 Follow these steps:
 _# on client (your computer)
@@ -102,8 +104,23 @@ You should follow the steps and see this:
 
 [15]: 5.png
 
-6.Optimizing Remote Running
+__6.Optimizing Remote Running__
 
+Welcome to the last step!
+Some tips for you!
+  You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. 
+  For example, this command will log in and list the home directory on the remote server:
+_$ ssh cs15lwi22@ieng6.ucsd.edu "ls"_
+
+  You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
+_$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI_
+
+  Use the up-arrow on your keyboard to recall the last command that was run.
+![Image][16]
+
+[16]: 6.png
+
+Hopefully you've finished! If you have problems, ask on Piazza or any TA or classmates!
 
 
 
