@@ -72,7 +72,13 @@ Then in the terminal from the directory where you made this file, log in to your
 Use _ls_ and see the file there in your home directory.
 Now you can run it on the ieng6 computer using _javac_ and _java_.
 
-__Need One More Pic__
+![Image][17]
+
+[17]: 7.png
+
+![Image][18]
+
+[18]: 8.png
 
 __5.Setting an SSH Key__
 
