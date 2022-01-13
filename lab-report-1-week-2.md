@@ -2,6 +2,6 @@
 
 [4]: screenshot1.png
 
-![Image][5]
+[Link][1]
 
-[5]: ../cse15l-lab-reports/screenshot1.png
+[1]: https://translate.google.com/

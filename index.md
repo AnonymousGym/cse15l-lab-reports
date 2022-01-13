@@ -4,7 +4,7 @@ _Not_
 __Bold__
 [Link][1]
 
-[1]: https://translate.google.com/
+[1]: lab-report-1-week-2.md
 # Yiming
 ***
 ![Image][2]
