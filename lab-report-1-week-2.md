@@ -2,6 +2,7 @@ __Tutorial for CSE 15L Week 1__
 
 __Steps:
 1.Installing VScode__
+
 Go download VScode at this website:
 [Link][1]
 
