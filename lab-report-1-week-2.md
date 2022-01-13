@@ -71,6 +71,7 @@ You should see this:
 Then in the terminal from the directory where you made this file, log in to your account using ssh
 Use _ls_ and see the file there in your home directory.
 Now you can run it on the ieng6 computer using _javac_ and _java_.
+
 __Need One More Pic__
 
 __5.Setting an SSH Key__
