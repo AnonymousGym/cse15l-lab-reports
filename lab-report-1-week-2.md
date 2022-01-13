@@ -47,14 +47,65 @@ This is some of my tests:
 
 [13]: 3.png
 
-4.Moving Files with scp
+__4.Moving Files with scp__
+Try to copy a file from your computer to a remote computer.
+The command is called _scp_, run it from your computer.
+Create a file on your computer called _WhereAmI.java_ and put some code:
+
+_class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}_
+
+Run the java file with javac and java command.
+You should see this:
+![Image][14]
+
+[14]: 4.png
+
+Then in the terminal from the directory where you made this file, log in to your account using ssh
+Use _ls_ and see the file there in your home directory.
+Now you can run it on the ieng6 computer using _javac_ and _java_.
+__Need One More Pic__
+
 5.Setting an SSH Key
+To avoid typing password every time we log in, we can use ssh keys.
+Follow these steps:
+_# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+_
+You should follow the steps and see this:
+![Image][15]
+
+[15]: 5.png
+
 6.Optimizing Remote Running
 
 
 
 
-![Image][4]
 
-[4]: screenshot1.png
 
