@@ -7,6 +7,6 @@ __Bold__
 Yiming
 =========
 ***
-![Image][1]
+![Image][2]
 
-[1]: https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg
+[2]: https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg
