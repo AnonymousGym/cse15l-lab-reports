@@ -4,4 +4,4 @@
 
 ![Image][5]
 
-[5]: /Users/gaoyiming/Documents/GitHub/cse15l-lab-reports/screenshot1.png
+[5]: ../cse15l-lab-reports/screenshot1.png
