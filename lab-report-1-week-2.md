@@ -37,7 +37,16 @@ Then you type in the password and hopefully you can arrive at this:
 [12]: 2.png
 
 
-3.Trying Some Commands
+__3.Trying Some Commands__
+
+Lucky to arrive here!
+Try running the commands _cd, ls, pwd, mkdir,_ and _cp_ a few times in different ways, 
+both on your computer, and on the remote computer after ssh-ing. 
+This is some of my tests:
+![Image][13]
+
+[13]: 3.png
+
 4.Moving Files with scp
 5.Setting an SSH Key
 6.Optimizing Remote Running
