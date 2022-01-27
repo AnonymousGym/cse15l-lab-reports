@@ -1,4 +1,4 @@
-__Tutorial for CSE 15L Week 1__
+# Tutorial for CSE 15L Week 1
 
 # Steps: 1. Installing VScode
 
