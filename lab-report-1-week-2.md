@@ -1,6 +1,6 @@
 __Tutorial for CSE 15L Week 1__
 
-# Steps: 1.Installing VScode
+# Steps: 1. Installing VScode
 
 Go download VScode at this website:
 [Link][1]
@@ -11,7 +11,7 @@ Follow the instructions to install, and you shall see this page:
 
 [11]: 1.png
 
-# 2.Remotely Connecting
+# 2. Remotely Connecting
 
 The second step is to connect to your account.
 _If you're using Windows, you have to install this:_
@@ -36,7 +36,7 @@ Then you type in the password and hopefully you can arrive at this:
 [12]: 2.png
 
 
-# 3.Trying Some Commands
+# 3. Trying Some Commands
 
 Lucky to arrive here!
 Try running the commands _cd, ls, pwd, mkdir,_ and _cp_ a few times in different ways, 
@@ -46,7 +46,7 @@ This is some of my tests:
 
 [13]: 3.png
 
-# 4.Moving Files with scp
+# 4. Moving Files with scp
 
 Try to copy a file from your computer to a remote computer.
 The command is called _scp_, run it from your computer.
@@ -79,7 +79,7 @@ Now you can run it on the ieng6 computer using _javac_ and _java_.
 
 [18]: 8.png
 
-# 5.Setting an SSH Key
+# 5. Setting an SSH Key
 
 To avoid typing password every time we log in, we can use ssh keys.
 Follow these steps:
@@ -110,7 +110,7 @@ You should follow the steps and see this:
 
 [15]: 5.png
 
-# 6.Optimizing Remote Running
+# 6. Optimizing Remote Running
 
 Welcome to the last step!
 Some tips for you!
