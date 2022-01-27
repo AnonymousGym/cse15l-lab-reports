@@ -126,6 +126,10 @@ _$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI_
 
 [16]: 6.png
 
+By performing the remote running technique, we can successfully save time from the perspective of keystrokes. 
+If we only run on our own local terminals, we have to run multiple times for separate steps. 
+However, with the previous optimized steps, we can run multiple commands at once, so this is much easier.
+
 Hopefully you've finished! If you have problems, ask on Piazza or any TA or classmates!
 
 
